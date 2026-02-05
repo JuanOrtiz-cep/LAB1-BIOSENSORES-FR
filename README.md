@@ -1,7 +1,7 @@
 # LAB1-BIOSENSORES-FR
 Se desarrollo un sistema capaz de adquirir la señal respiratoria para calcular la frecuencia respiratoria de un sujeto sano.
 
-# 🫁 Monitoreo de la Frecuencia Respiratoria y Análisis del Habla
+#  Monitoreo de la Frecuencia Respiratoria y Análisis del Habla
 
 ##  Descripción del proyecto
 Este repositorio contiene el desarrollo de una práctica de laboratorio enfocada en el **monitoreo del proceso respiratorio** mediante la adquisición y el análisis de una señal biológica. El objetivo principal es **evaluar cómo la verbalización (hablar o leer en voz alta) modifica el patrón y la frecuencia respiratoria** en comparación con un estado de reposo.
@@ -22,7 +22,7 @@ A diferencia de otros signos vitales como la presión arterial o la frecuencia c
 ##  Objetivos
 
 ### Objetivo general
-Evaluar la influencia del habla o verbalización sobre el patrón respiratorio.
+Evaluar  el patrón respiratorio.
 
 ### Objetivos específicos
 - Identificar las principales variables físicas involucradas en el proceso respiratorio.
@@ -60,9 +60,7 @@ En esta práctica se diseña y construye un sistema de monitoreo respiratorio qu
 ##  Metodología
 
 ###  Parte A: Adquisición de la señal respiratoria
-1. Revisión bibliográfica del proceso respiratorio y sus variables físicas.
-2. Selección de un sensor adecuado para capturar la señal respiratoria.
-3. Diseño del sistema de acondicionamiento y digitalización usando Arduino.
+1. variables físicasRedel proceso respirators.
 4. Prueba del sistema en un sujeto sano.
 5. Visualización de la señal mediante **Serial Plotter** en:
    - Reposo.
