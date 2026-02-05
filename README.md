@@ -2,11 +2,10 @@
 
 Se realizó una revisión literaria sobre el proceso respiratorio, enfocado en el conocimiento de las variables físicas. 
 La respiración es el proceso fisiológico mediante el cual los organismos intercambian gases con el ambiente. En los humanos, está compuesta por dos grandes procesos: la ventilación pulmonar que es el movimiento de aire hacia adentro y afuera de los pulmones y el intercambio gaseoso que es la difusión de oxígeno hacia la sangre y dióxido de carbono hacia el exterior. Este proceso depende de la distensibilidad del sistema respiratorio y la resistencia de las vías aéreas. 
-A su vez hay diferentes variables físicas medibles como el volumen pulmonar, flujo de aire, presión y concentración de gases que permiten hacer análiss sobre la salud de una persona. 
-Para captar la señal respiratoria, la cual es una señal física, se puede utilizar un sensor respiratorio como será el caso, puede ser de flujo, presión o CO₂. Utilizando la magnitud física asociada, se requiere un transductor que convierta la magnitud en señal eléctrica y por medio de un sistema de adquisición se digitalizará la señal para poder ser visualizada y poder tomar la frecuencia respiratoria.
-La frecuencia respiratoria (FR) es el número de ciclos respiratorios completos por minuto y está podrá ser calculada según los picos de la señal respiratoria.
 
-Se desarrollo un sistema capaz de adquirir la señal respiratoria para calcular la frecuencia respiratoria de un sujeto sano.
+A su vez hay diferentes variables físicas medibles como el volumen pulmonar, flujo de aire, presión y concentración de gases que permiten hacer análiss sobre la salud de una persona. 
+Para captar la señal respiratoria, la cual es una señal física, se puede utilizar un sensor respiratorio como será el caso, puede ser de flujo, presión o CO₂. Utilizando la magnitud física asociada, se requiere un transductor que convierta la magnitud en señal eléctrica y por medio de un sistema de adquisición se digitalizará la señal para poder ser visualizada y poder tomar la frecuencia respiratoria, siendo la frecuencia respiratoria el número de ciclos respiratorios completos por minuto y está podrá ser calculada según los picos de la señal respiratoria.
+
 
 #  Monitoreo de la Frecuencia Respiratoria y Análisis del Habla
 
