@@ -92,4 +92,8 @@ Pregunta 2: ¿Cuáles serían las ventajas y desventajas de emplear múltiples
 sensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían ser
 las razones?
 
+## Referencias
+
+https://medlineplus.gov/spanish/pruebas-de-laboratorio/pruebas-de-funcion-pulmonar/
+
 
