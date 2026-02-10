@@ -38,9 +38,6 @@ Evaluar  el patrón respiratorio.
 - Analizar cambios en el patrón respiratorio asociados a tareas de verbalización.
 
 
-
-
-
 PARTE A.
 ## Sensor
 Seleccionar el sensor que considere más adecuado para medir la variable de
@@ -60,11 +57,6 @@ exhala).
 b. Mientras el sujeto de prueba habla o lee.
 
 ### Código Arduino:
-
-// ===============================
-// Capnografía - Frecuencia Respiratoria
-// Universidad Militar Nueva Granada
-// ===============================
 
 const int sensorPin = A0;
 const unsigned long Ts = 20; // 20 ms -> 50 Hz
@@ -100,9 +92,7 @@ frecuencia(s) de corte.
 frecuencia dominante en cada caso.
 
 
-PARTE C
-Documente la práctica explicando paso a paso cuál fue el procedimiento que se
-siguió y dando respuesta a las preguntas que se formulan en la guía (ver Parte
+
 
 ## Conclusión: 
 
