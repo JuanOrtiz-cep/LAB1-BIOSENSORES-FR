@@ -1,6 +1,5 @@
 # LAB1-BIOSENSORES-FR
 
-Se realizó una revisión literaria sobre el proceso respiratorio, enfocado en el conocimiento de las variables físicas. 
 La respiración es el proceso fisiológico mediante el cual los organismos intercambian gases con el ambiente. En los humanos, está compuesta por dos grandes procesos: la ventilación pulmonar que es el movimiento de aire hacia adentro y afuera de los pulmones y el intercambio gaseoso que es la difusión de oxígeno hacia la sangre y dióxido de carbono hacia el exterior. Este proceso depende de la distensibilidad del sistema respiratorio y la resistencia de las vías aéreas. 
 
 A su vez hay diferentes variables físicas medibles como el volumen pulmonar, flujo de aire, presión y concentración de gases que permiten hacer análiss sobre la salud de una persona. 
@@ -9,23 +8,13 @@ Variables Principales
 Las tres variables físicas esenciales son la presión, el flujo y el volumen. La presión genera gradientes que mueven el aire hacia los alvéolos, el flujo mide la velocidad del movimiento aéreo (en L/min), y el volumen cuantifica la cantidad de aire desplazado. Estas se ven influenciadas por la elasticidad pulmonar y resistencias de las vías aéreas.
 
 Mecánica Respiratoria
-La inspiración ocurre por reducción de la presión intrapulmonar (ley de Boyle: presión inversa al volumen), gracias a la contracción del diafragma y músculos intercostales. En la espiración, la elasticidad torácica genera presión positiva para expulsar aire, limitada por el cierre de vías aéreas pequeñas. La viscosidad y tensión superficial (modulada por surfactante) afectan estas dinámicas.
-
-Propiedades Físicas del Pulmón
-El pulmón exhibe elasticidad (tendencia a volver a su forma inicial) y distensibilidad, cuantificadas como cambio de volumen por presión. La gravedad influye en la distribución ventilación-perfusión, mayor en bases que en vértices. Leyes de gases como Charles y Dalton regulan difusión en alvéolos.
-
-Para captar la señal respiratoria, la cual es una señal física, se puede utilizar un sensor respiratorio como será el caso, puede ser de flujo, presión o CO₂. Utilizando la magnitud física asociada, se requiere un transductor que convierta la magnitud en señal eléctrica y por medio de un sistema de adquisición se digitalizará la señal para poder ser visualizada y poder tomar la frecuencia respiratoria, siendo la frecuencia respiratoria el número de ciclos respiratorios completos por minuto y está podrá ser calculada según los picos de la señal respiratoria.
+La inspiración ocurre por reducción de la presión intrapulmonar (ley de Boyle: presión inversa al volumen), gracias a la contracción del diafragma y músculos intercostales. En la espiración, la elasticidad torácica genera presión positiva para expulsar aire, limitada por el cierre de vías aéreas pequeñas. La viscosidad y tensión superficial (modulada por surfactante) afectan estas dinámicas, se requiere un transductor que convierta la magnitud en señal eléctrica y por medio de un sistema de adquisición se digitalizará la señal para poder ser visualizada y poder tomar la frecuencia respiratoria, siendo la frecuencia respiratoria el número de ciclos respiratorios completos por minuto y está podrá ser calculada según los picos de la señal respiratoria.
 ​
-Literatura Clave
-Estudios destacan presiones alveolares oscilantes por músculos respiratorios y resistencias al flujo. Revisiones fisiológicas enfatizan viscosidad (fricción tisular-gas) y limitaciones por compresión de vías aéreas en esfuerzos máximos. Recursos como manuales clínicos integran estas variables para evaluar función pulmonar.
-
 
 #  Monitoreo de la Frecuencia Respiratoria y Análisis del Habla
 
 ##  Descripción del proyecto
-Práctica de laboratorio enfocada en el monitoreo del proceso respiratorio mediante la adquisición y el análisis de una señal biológica. El objetivo principal es evaluar cómo la verbalización modifica el patrón y la frecuencia respiratoria en comparación con un estado de reposo.
-
-La practica integra hardware de adquisición, sensores fisiológicos y herramientas de procesamiento digital de señales en MATLAB.
+Práctica de laboratorio enfocada en el monitoreo del proceso respiratorio mediante la adquisición y el análisis de una señal biológica. El objetivo principal es evaluar cómo la verbalización modifica el patrón y la frecuencia respiratoria en comparación con un estado de reposo. La practica integra hardware de adquisición, sensores fisiológicos y herramientas de procesamiento digital de señales en MATLAB.
 
 ##  Objetivos
 
@@ -78,7 +67,7 @@ void loop() {
     Serial.println(voltage);
   }
 }
-
+```
 
 PARTE B
 ## código en MATLAB que permita la captura
