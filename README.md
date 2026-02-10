@@ -58,6 +58,7 @@ b. Mientras el sujeto de prueba habla o lee.
 
 ### Código Arduino:
 
+```cpp
 const int sensorPin = A0;
 const unsigned long Ts = 20; // 20 ms -> 50 Hz
 unsigned long t0 = 0;
