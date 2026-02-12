@@ -29,13 +29,9 @@ Evaluar  el patrón respiratorio.
 
 PARTE A.
 ## Sensor
-Seleccionar el sensor que considere más adecuado para medir la variable de
-interés y, de esa forma, capturar las variaciones producidas por el proceso
-respiratorio. Considere un voltaje de alimentación de +3.3 a +5 VDC, en el
-caso de tratarse de un sensor pasivo. Medite sobre cómo adaptar el sensor al
-cuerpo del sujeto de prueba para capturar la señal con un mínimo de
-interferencia.
+
 Se usó el conversor análogo-digital integrado en la placa Arduino.
+Termistor NTC 10 K ohmnios
 
 ## Resultados
 “Serial Plotter” del menú “Herramientas” del entorno de
