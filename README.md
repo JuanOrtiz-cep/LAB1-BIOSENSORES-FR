@@ -76,16 +76,30 @@ frecuencia(s) de corte.
 4. Obtenga la representación en frecuencia de ambas señales e identifique la
 frecuencia dominante en cada caso.
 
+### PROCEDIMIENTO
 
+
+Se escogió el sensor de temperatura (Termistor NTC 10 kilo ohmnios) 
+posteriormente se uso como micro controlador Arduino Nano, usando como entrada para el sensor el pin A0
+
+Primero observamos la señal usando el serial plotter en Arduino IDE, para obtener una mejor señal adaptamos
+el termistor en una masacara de oxígeno.
+
+Usando Matlab se programó un código con el procesamiento de la señal, y el cálculo de las frecuencias respiratorias.
 
 
 ## Conclusión: 
 
-Pregunta 1: ¿Son los patrones respiratorios y frecuencias respiratorias
+1: ¿Son los patrones respiratorios y frecuencias respiratorias
 iguales o diferentes en cada caso? ¿A qué se debe esto?
-Pregunta 2: ¿Cuáles serían las ventajas y desventajas de emplear múltiples
+
+R/ Los patrones son similares, sin embargo, la frecuencia al hablar es menor debido  a que se toma aire y se "aguanta" la respiración al hablar
+
+2: ¿Cuáles serían las ventajas y desventajas de emplear múltiples
 sensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían ser
 las razones?
+
+R/ Las ventajas de usar multiples sensores podría ser la posibilidad de comparar la efectividad de cada uno, sim embargo por esto mismo no todos son igual de efectivos, y el factor economico no permite el uso de todos a la vez, ppr eso la importancia del estudio de cada uno de estos y sus posibles adaptaciones para mejorar la captura.
 
 ## Referencias
 
