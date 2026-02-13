@@ -80,6 +80,108 @@ Sin embargo la diferencia no es clara a simple vista y por esto se hace la imple
 
 ##  Código Matlab
 ## Código
+
+```cpp
+clear; clc; close all
+
+s = serialport("COM3",115200);
+configureTerminator(s,"LF");
+flush(s);
+
+answer = inputdlg("Tiempo de adquisición (s):","Configuración",[1 40],{"30"});
+T = str2double(answer{1});
+Fs = 50;                
+N = Fs*T;
+
+t = zeros(1,N);
+x = zeros(1,N);
+xf = zeros(1,N);
+
+[b_hp,a_hp] = butter(2,0.05/(Fs/2),'high');    
+[b_lp,a_lp] = butter(4,5/(Fs/2),'low');       
+
+zi_hp = zeros(max(length(a_hp),length(b_hp))-1,1);
+zi_lp = zeros(max(length(a_lp),length(b_lp))-1,1);
+
+%% FIGURA TIEMPO
+figure('Name','Monitor Respiratorio - ESP32');
+subplot(2,1,1)
+h1 = plot(0,0,'Color',[0.6 0.6 0.6]); hold on
+h2 = plot(0,0,'b','LineWidth',2);
+grid on
+xlabel("Tiempo (s)")
+ylabel("Voltaje")
+legend("Cruda","Filtrada")
+title("Señal respiratoria en tiempo real")
+xlim([0 T])
+ylim([-1 1])
+
+
+k = 1;
+disp("Midiendo...")
+
+while k <= N
+    if s.NumBytesAvailable > 0
+        v = str2double(strtrim(readline(s)));
+
+        if ~isnan(v)
+            t(k) = (k-1)/Fs;
+            x(k) = v;
+
+            [yhp, zi_hp] = filter(b_hp,a_hp,v,zi_hp);
+            [y, zi_lp] = filter(b_lp,a_lp,yhp,zi_lp);
+            xf(k) = y;
+
+            subplot(2,1,1)
+            set(h1,'XData',t(1:k),'YData',x(1:k))
+            set(h2,'XData',t(1:k),'YData',xf(1:k))
+            drawnow limitrate
+
+            k = k + 1;
+        end
+    end
+end
+
+disp("Adquisición finalizada")
+
+
+Nfft = length(xf);
+X = fft(xf);
+f = (0:Nfft-1)*(Fs/Nfft);
+mag = abs(X)/Nfft;
+
+f = f(1:Nfft/2);
+mag = mag(1:Nfft/2);
+
+subplot(2,1,2)
+plot(f,mag,'LineWidth',2)
+grid on
+xlabel("Frecuencia (Hz)")
+ylabel("|X(f)|")
+title("Espectro de frecuencia")
+xlim([0 5])
+
+idx_range = find(f >= 0.15 & f <= 0.7);
+
+[~,idx2] = max(mag(idx_range));
+f_resp = f(idx_range(idx2));
+
+FR_fft = f_resp*60;
+
+disp("Frecuencia respiratoria por FFT (rpm):")
+disp(FR_fft)
+
+datos.t = t;
+datos.raw = x;
+datos.filtrada = xf;
+datos.FR_fft = FR_fft;
+save("respiracion_termistor.mat","datos")
+
+clear s
+```
+Matlab Code
+
+
 ## En reposo:
 <img width="696" height="616" alt="image" src="https://github.com/user-attachments/assets/a4566371-d030-4aae-b46f-db96b5c87f55" />
 
