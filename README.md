@@ -1,8 +1,8 @@
-Juan Esteban Ortiz Cepeda          5600742     
+Juan Esteban Ortiz Cepeda            5600742     
 
-Catalina Martínez Franco           5600832
+Catalina Martínez Franco             5600832
 
-Joseph Emmanuel Rodríguez Ramírez  5600835       
+Joseph Emmanuel Rodríguez Ramírez    5600835       
 
 
 # LAB1-BIOSENSORES-FR
@@ -71,7 +71,12 @@ IDE Arduino
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a48f516d-d53b-4653-a48f-e5f96ad069dd" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0a4af67a-b262-4559-b287-9bfebf2b6e14" />
+Mientras que haciendo una prueba sencilla de conteo de inhalaciónes y exhalaciones de forma manual a uno de nuestros compañeros, también se observó en la sola IDE de Arduino los cambios de amplitud generados por el sensor.
+Hay dos lineas, siendo la azul la recibida por el sensor con un pasabajos, y la roja siendo unos espacios que podrían llegar a considerar cuales son inhalaciones y cuales exhalaciones
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/477e0f80-bfae-4be0-8f12-a906dce717ba" />
+
+Sin embargo la diferencia no es clara a simple vista y por esto se hace la implementación a matlab para trabajar con más herramientas y filtros.
 
 ##  Código Matlab
 ## Código
