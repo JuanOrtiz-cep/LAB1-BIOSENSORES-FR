@@ -75,10 +75,13 @@ IDE Arduino
 
 ##  Código Matlab
 ## Código
-## imagenes
-## Obtenga la representación en frecuencia de ambas señales e identifique lafrecuencia dominante en cada caso.
+## En reposo:
+<img width="696" height="616" alt="image" src="https://github.com/user-attachments/assets/a4566371-d030-4aae-b46f-db96b5c87f55" />
 
-## Resultados
+## Hablando:
+<img width="691" height="614" alt="image" src="https://github.com/user-attachments/assets/324a9d64-bdc4-4b0d-b69a-75eda118fcb0" />
+
+
 
 
 ## Discusión:
