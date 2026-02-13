@@ -185,9 +185,13 @@ Matlab Code
 ## En reposo:
 <img width="696" height="616" alt="image" src="https://github.com/user-attachments/assets/a4566371-d030-4aae-b46f-db96b5c87f55" />
 
+Para el caso en reposo, se le solicita al paciente que respire de manera natural durante un tiempo determinado, en este caso es de 30 segundos. Ahora bien, en la gráfica observamos un patron de ondas lentas que aunque poseen ruido tienden a ser periódicas, gracias a la transformada de fourier observamos el espectro de frecuencia que nos ayuda a obtener las rpm, en este caso, con respiracion normal y moderada se obtuvieron 16 rpm. 
+
+
 ## Hablando:
 <img width="691" height="614" alt="image" src="https://github.com/user-attachments/assets/324a9d64-bdc4-4b0d-b69a-75eda118fcb0" />
 
+En la segunda parte de la medición, se le pide al paciente que realice el mismo ejercicio anterior con la misma duración pero hablando, ya que, ahora se espera que al hablar, se evidencie que la señal tiende a aser algo más ruidosa, irregular, llena de vibraciones rápidas. Es aquí en donde aparecen muchos picos ya que cuando hablamos el aire se usa para producir sonido, por lo cual la respiración se fragmenta. Con esto se mide que la frecuencia es mas baja con relación que el anterior ejercicio, pese a que estamos respirando más rápido. Aquí de igual manera gracias a la FFT pudimos obtener una medida de 12 rpm. 
 
 
 
