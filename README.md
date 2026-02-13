@@ -95,6 +95,8 @@ Sin embargo por esto mismo no todos son igual de efectivos y hay que buscar la c
 
 ## Conclusión:
 
+En esta práctica de laboratorio se pudo evidenciar la importancia de elegir un sensor acorde a los requerimientos y disponibilidades, haciendo una mejor revisión de la literatura, ya que, aunque a simple vista no se logre ver el cambio en la frecuencia cardiaca o en los picos, al momento de ejecutar el código este detecta por medio de los picos y las frecuencias dominantes que al hablar la frecuencia respiratoria es menor que en un estado de reposo, por lo cual se concluye que es posible realizar la práctica con mejores condiciones, así como es posible aprovechar tanto los filtros digitales como los análogos para lograr lo esperado, sumándole a esto la importancia de reconocer y entender las diferentes mediciones fisiológicas y como obtenerlas a través de los diferentes tipos de sensores.
+
 ## Referencias
 
 https://medlineplus.gov/spanish/pruebas-de-laboratorio/pruebas-de-funcion-pulmonar/
