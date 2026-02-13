@@ -1,6 +1,6 @@
-Juan Esteban Ortiz Cepeda             5600742     
-Catalina Martínez Franco              5600832
-Joseph Emmanuel Rodríguez Ramírez     5600835       
+Juan Esteban Ortiz Cepeda          5600742     
+Catalina Martínez Franco           5600832
+Joseph Emmanuel Rodríguez Ramírez  5600835       
 
 
 # LAB1-BIOSENSORES-FR
