@@ -35,9 +35,12 @@ Se usó el conversor análogo-digital integrado en la placa Arduino usando un Te
 ## Resultados
 “Serial Plotter” del menú “Herramientas” del entorno de
 programación,
-capturas de pantalla que muestren la señal:
-a. En reposo (cuente manualmente el número de veces que el sujeto inhala o
+
+capturas de pantalla:
+
+a. En reposo (cuenta manual del número de veces que el sujeto inhala o
 exhala).
+
 b. Mientras el sujeto de prueba habla o lee.
 
 ### Código Arduino:
@@ -68,12 +71,8 @@ PARTE B
 ## código en MATLAB que permita la captura
 
 2. Capturar 30 segundos de señal respiratoria bajo las condiciones establecidas
-en el paso 5 de la parte A (incisos “a” y “b”). Recuerde guardar en cada caso el
-correspondiente archivo .MAT.
 3. De ser necesario, aplique los filtros correspondientes para mejorar la calidad
-de ambas señales. Especifique el tipo de filtro (pasa-bajas, pasa banda) y la(s)
-frecuencia(s) de corte.
-4. Obtenga la representación en frecuencia de ambas señales e identifique la
+4. Representación en frecuencia de ambas señales e identifique la
 frecuencia dominante en cada caso.
 
 ### PROCEDIMIENTO
