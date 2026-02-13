@@ -30,8 +30,7 @@ Evaluar  el patrón respiratorio.
 PARTE A.
 ## Sensor
 
-Se usó el conversor análogo-digital integrado en la placa Arduino.
-Termistor NTC 10 K ohmnios
+Se usó el conversor análogo-digital integrado en la placa Arduino usando un Termistor NTC 10 K ohmnios, el cual es un senstor pasivo ya que requiere una fuente externa para su funcionamiento.
 
 ## Resultados
 “Serial Plotter” del menú “Herramientas” del entorno de
