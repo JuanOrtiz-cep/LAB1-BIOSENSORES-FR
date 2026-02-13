@@ -45,14 +45,6 @@ Primero se observó la señal usando el serial plotter en Arduino IDE, para obte
 
 Finalmente en Matlab se programó un código con el procesamiento y filtrados de la señal, el cálculo de las frecuencias respiratorias y las frecuencias dominantes.
 
-## Resultados
-“Serial Plotter” del menú “Herramientas” del entorno de
-programación,
-capturas de pantalla que muestren la señal:
-a. En reposo (cuente manualmente el número de veces que el sujeto inhala o
-exhala).
-b. Mientras el sujeto de prueba habla o lee.
-
 ### Código Arduino:
 
 ```cpp
@@ -85,6 +77,8 @@ IDE Arduino
 ## Código
 ## imagenes
 ## Obtenga la representación en frecuencia de ambas señales e identifique lafrecuencia dominante en cada caso.
+
+## Resultados
 
 
 ## Discusión:
